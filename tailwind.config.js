@@ -2,7 +2,12 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				body: ['Poppins', 'sans-serif'],
+				header: ['"Nerko One"', 'sans-serif']
+			}
+		}
 	},
 	plugins: []
 };
